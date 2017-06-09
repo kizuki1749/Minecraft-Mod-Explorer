@@ -50,6 +50,7 @@
             this.このModを削除DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -108,6 +109,7 @@
             this.modの管理MToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.modの追加AToolStripMenuItem,
             this.modの削除DToolStripMenuItem,
+            this.toolStripMenuItem1,
             this.toolStripSeparator2,
             this.forgeのインストールFToolStripMenuItem,
             this.toolStripSeparator3,
@@ -119,40 +121,40 @@
             // modの追加AToolStripMenuItem
             // 
             this.modの追加AToolStripMenuItem.Name = "modの追加AToolStripMenuItem";
-            this.modの追加AToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.modの追加AToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.modの追加AToolStripMenuItem.Text = "Modの追加(&A)";
             this.modの追加AToolStripMenuItem.Click += new System.EventHandler(this.modの追加AToolStripMenuItem_Click);
             // 
             // modの削除DToolStripMenuItem
             // 
             this.modの削除DToolStripMenuItem.Name = "modの削除DToolStripMenuItem";
-            this.modの削除DToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.modの削除DToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.modの削除DToolStripMenuItem.Text = "Modの削除(&D)";
             this.modの削除DToolStripMenuItem.Click += new System.EventHandler(this.このModを削除DToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(183, 6);
             // 
             // forgeのインストールFToolStripMenuItem
             // 
             this.forgeのインストールFToolStripMenuItem.Name = "forgeのインストールFToolStripMenuItem";
-            this.forgeのインストールFToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.forgeのインストールFToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.forgeのインストールFToolStripMenuItem.Text = "Forgeのインストール(&G)";
             this.forgeのインストールFToolStripMenuItem.Click += new System.EventHandler(this.forgeのインストールFToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(183, 6);
             // 
             // 起動UToolStripMenuItem
             // 
             this.起動UToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.minecraftLauncherToolStripMenuItem});
             this.起動UToolStripMenuItem.Name = "起動UToolStripMenuItem";
-            this.起動UToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.起動UToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.起動UToolStripMenuItem.Text = "起動(&R)";
             // 
             // minecraftLauncherToolStripMenuItem
@@ -220,6 +222,14 @@
             this.openFileDialog1.Filter = "対応しているすべてのファイル|*.jar;*.zip|Executable Jar File|*.jar|圧縮ファイル|*.zip|すべてのファイル|*.*";
             this.openFileDialog1.SupportMultiDottedExtensions = true;
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(186, 22);
+            this.toolStripMenuItem1.Text = "Modの検索(&F)";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -230,7 +240,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Minecraft Mod Explorer 1.0.1";
+            this.Text = "Minecraft Mod Explorer 1.0.2 Beta 1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -248,7 +258,6 @@
         private System.Windows.Forms.ToolStripMenuItem 再読み込みRToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ToolStripMenuItem modフォルダーを指定して再読み込みFToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem このModを削除DToolStripMenuItem;
@@ -264,6 +273,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem 起動UToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem minecraftLauncherToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        public System.Windows.Forms.ListBox listBox1;
     }
 }
 

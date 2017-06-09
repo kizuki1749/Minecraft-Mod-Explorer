@@ -16,8 +16,26 @@ namespace Minecraft_Mod_Explorer
 {
     public partial class Form1 : Form
     {
-
         string folderpath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\.minecraft\mods";
+        private static Form1 _form1Instance;
+        public static Form1 Form1Instance
+        {
+            get
+            {
+                return _form1Instance;
+            }
+            set
+            {
+                _form1Instance = value;
+            }
+        }
+        public ListBox.ObjectCollection listBoxitems
+        {
+            get
+            {
+                return listBox1.Items;
+            }
+        }
 
         public Form1()
         {
@@ -29,6 +47,7 @@ namespace Minecraft_Mod_Explorer
             reload();
             このModを削除DToolStripMenuItem.Enabled = false;
             modの削除DToolStripMenuItem.Enabled = false;
+            Form1.Form1Instance = this;
         }
         string[] files;
         string[] search = { "Buildcraft", "Industrialcraft", "Railcraft", "Redpower", "ProjectRed", "Optifine", "InfinityChest", "cutall", "mineall", "dokodemodoor-3", "TooManyItems", "codechickencore", "CoFH", "ComputerCraft", "fastcraft", "Bamboo", "CompactEngine", "ProjectE", "SlimevoidLibrary" , "DynamicTransport","AdvancedSolarPanel" , "QuarryPlus" , "LogisticsPipe" , "CodeChickenLib" , "ForgeMultiPart" , ".points" };
@@ -201,6 +220,12 @@ namespace Minecraft_Mod_Explorer
         private void minecraftLauncherToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start(folderBrowserDialog1.SelectedPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\.minecraft\Launcher.jar");
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
         }
     }
 }
