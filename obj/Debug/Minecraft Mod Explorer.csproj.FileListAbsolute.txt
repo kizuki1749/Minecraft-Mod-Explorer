@@ -1,0 +1,24 @@
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.exe.config
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.exe
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.pdb
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form1.resources
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Properties.Resources.resources
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.exe
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.pdb
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form2.resources
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form3.resources
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.exe.config
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.exe
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\bin\Debug\Minecraft Mod Explorer.pdb
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form1.resources
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form2.resources
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Form3.resources
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft_Mod_Explorer.Properties.Resources.resources
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csproj.GenerateResource.Cache
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.exe
+F:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.pdb
+D:\Visual Studio 2015\Projects\Minecraft Mod Explorer\Minecraft Mod Explorer\obj\Debug\Minecraft Mod Explorer.csproj.CoreCompileInputs.cache

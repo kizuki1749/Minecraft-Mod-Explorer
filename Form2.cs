@@ -14,12 +14,13 @@ namespace Minecraft_Mod_Explorer
     public partial class Form2 : Form
     {
         // versions
-        string[] minor = { "1","2","5","6","7","8","9","10","11" };
+        string[] minor = { "1","2","5","6","7","8","9","10","11","12" };
         string[] build6 = { "2","4" };
         string[] build7 = { "2","10_pre4","10" };
         string[] build8 = { "0", "8", "9" };
         string[] build9 = { "0", "4" };
         string[] build1011 = { "0", "2" };
+        string[] build1012 = { "0", "1", "2" };
 
         public Form2()
         {
@@ -88,6 +89,10 @@ namespace Minecraft_Mod_Explorer
                 case 8:
                     comboBox3.Items.Clear();
                     comboBox3.Items.AddRange(build1011);
+                    break;
+                case 9:
+                    comboBox3.Items.Clear();
+                    comboBox3.Items.AddRange(build1012);
                     break;
             }
         }
@@ -216,6 +221,18 @@ namespace Minecraft_Mod_Explorer
                     break;
                 case "1112":
                     DoDownload("http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.0.2296/forge-1.11.2-13.20.0.2296-installer.jar", @"temp\forge-installer.jar");
+                    System.Diagnostics.Process.Start(@"temp\forge-installer.jar");
+                    break;
+                case "1120":
+                    DoDownload("http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12-14.21.1.2443/forge-1.12-14.21.1.2443-installer.jar", @"temp\forge-installer.jar");
+                    System.Diagnostics.Process.Start(@"temp\forge-installer.jar");
+                    break;
+                case "1121":
+                    DoDownload("http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.1-14.22.1.2485/forge-1.12.1-14.22.1.2485-installer.jar", @"temp\forge-installer.jar");
+                    System.Diagnostics.Process.Start(@"temp\forge-installer.jar");
+                    break;
+                case "1122":
+                    DoDownload("http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.0.2512/forge-1.12.2-14.23.0.2512-installer.jar", @"temp\forge-installer.jar");
                     System.Diagnostics.Process.Start(@"temp\forge-installer.jar");
                     break;
                 default:
